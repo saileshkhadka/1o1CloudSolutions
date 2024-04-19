@@ -1,0 +1,49 @@
+/* src/components/Header.css */
+.header-container {
+    position: fixed;
+    top: 0;
+    right: auto;
+    left: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Align items to the start and end of the container */
+    align-items: center; /* Vertically center the items within the container */
+    padding: 10px; /* Add padding for better spacing */
+    background-color: #151b27;
+    z-index: 1000;
+  }
+  
+  .fixed-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .fixed-navbar ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .fixed-navbar ul li:first-child {
+    margin-left: 0;
+  }
+  
+  .fixed-navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .App-header h1 {
+    margin: 0; /* Remove margin from the h1 element */
+    color: rgb(87, 87, 87); /* Set color to white */
+  }
+
+  .main-content {
+    padding-top: 60px; /* Adjust the padding to ensure content starts below the fixed navbar */
+  }
+
+  .header-color{
+    color: whitesmoke;
+  }
+  
